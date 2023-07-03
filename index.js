@@ -14,9 +14,8 @@ const Time = () =>{
     let secondRotate = 6*ss;
 
     hour.style.transform = `rotate(${hourRotate}deg)`;
-    let p = minute.style.transform = `rotate(${minuteRotate}deg)`;
+    minute.style.transform = `rotate(${minuteRotate}deg)`;
     second.style.transform = `rotate(${secondRotate}deg)`;
-    // console.log(p);
     
 }
 Time();
