@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background: #000000;
+}
+.container{
+    width:550px;
+    height:550px;
+    background: #ff5151;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 20;
+}
+.hand i{
+    position: absolute;
+    background: pink;
+    width: 7px;
+    height:120px;
+    border-radius: 50% 50% 0 0;
+}
+.hand1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 20;
+}
+.hand1 i{
+    position: absolute;
+    background: rgb(255, 34, 71);
+    width: 4px;
+    height:180px;
+    border-radius: 50% 50% 0 0;
+}
+.hand2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 20;
+}
+.hand2 i{
+    position: absolute;
+    background: rgb(255, 242, 0);
+    width: 3px;
+    height:220px;
+    border-radius: 50% 50% 0 0;
+}
+.circle{
+    background: #000;
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+ .numbers{
+    position:absolute;
+    top:0;
+    bottom:0;
+    color: white;
+}
+
+.twelve{
+    font-size:50px;
+    margin-top:120%;
+    margin-left:50%;
+    transform: translateX(-100%);
+
+}
+.three{
+    font-size:50px;
+    margin-top:1100%;
+    margin-left:890%;
+}
+.nine{
+    font-size:50px;
+    margin-top:1100%;
+    margin-left:-890%;
+}
+.six{
+    font-size:50px;
+    margin-top: 1980%;
+}
+.point{
+    height:30px;
+    width:30px;
+    background: white;
+    border-radius: 50%;
+    position:absolute;
+    z-index: 10;
+}
+.container::before{
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    z-index: 30;
+}
